@@ -50,3 +50,54 @@ numbers = [1, 2, 3, 4]
 print(reduce(lambda a, b: a + b, numbers)) #10
 
 
+
+#Zhanna (Нефункциональный функция)
+movie = 'The good,the bad,and the ugly'
+rating = 7
+
+result = f'Movie:"{movie}",rating:{rating}'
+print(result)
+print()
+movie = 'Titanic'
+rating=9
+result = f'Movie:"{movie}",rating:{rating}'
+print(result)
+
+#Zhanna 2 
+def name_function(a,b,c):
+    print(a+b)
+    print(b+c)
+    k = a-c
+    print(c)
+    print(k)
+name_function(10,5,7)
+
+#Кортеж
+#список общего количества рабочих часов за каждую неделю.
+#словарь
+
+def people_age(): 
+    d = dict(); 
+    d['Jack'] = 30
+    d['Kim'] = 28
+    d['Bob'] = 27
+    return d
+d = people_age() 
+print(d)
+
+#Список
+def natural_numbers(numbers = []):
+   
+   for i in range(1, 16):
+       numbers.append(i)
+   return numbers
+ 
+print(natural_numbers())
+#Кортеж
+def fun(): 
+    str1 = "Happy"
+    str2 = "Coding"
+    return str1, str2; 
+str1, str2= fun() 
+print(str1) 
+print(str2)
